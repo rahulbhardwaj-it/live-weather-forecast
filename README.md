@@ -23,7 +23,7 @@ If the user wants to see the past search city weather condition again, just clic
 * "forecast" function is called with the city id. When the ajax, call was success (which is determined by the code 200), the cities will be fetched from local storage. If there are no entries in the local storage, the city will be stored in the storage and also will be shown on the page where the search history is displayed. If there are entries in the storage, by using "find" function, we will search the entries from the storage to see if the city exists; if it exists, to prevent double entry, it won't be added to the storage or the page. If it does not previously searched, then it will be added to the storage and the page.
 * Finally when the user enters the city name  in the input box and press search button, “displayWeather” function will be fired up and current weather function will be call to display the current and 5-days forecast weather condition on the page.
 
-* Here you can run the application using the following URL:  https://haymanotyealemu.github.io/Weather-Dashboard/
+* Here you can run the application using the following URL:  https://rahulbhardwaj-it.github.io/live-weather-forecast/
 
 ![](image/screenshoot.PNG)
 
